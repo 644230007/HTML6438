@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="chutiwat">
+    <title>Homework-Table-Chutiwat</title>
+    <style>
+        td{
+            color: darkblue;
+            width: 200px;
+            text-align: center;
+        }
+        b{
+            color: white;
+            text-decoration: underline;
+        }
+        button:hover,button:active{
+            background-color: greenyellow;
+            color: white;
+        }
+        thead{
+            background-color: black;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Chutiwat Homepage</h1>
+    <hr>
+    <h4 align="right"><a href="home.html">Back to home</a></h4>
+    <h2 align="center">รายการอาหาร</h2>
+    <table border="0" cellpadding="10" cellspacing="0" align="center">
+        <tr>
+            <tbody>
+                <thead>
+                    <th>รหัสเมนู</th>
+                    <th>ภาพ</th>
+                    <th>ชื่อ</th>
+                    <th>ราคา</th>
+                    <th>ดำเนินการ</th>
+                </thead>
+            </tbody>
+        </tr>
+        <tr align="center">
+            <td>A-001</td>
+            <td><img src="Images/กระเพราหมูสับไข่ดาว.jpg" alt="กระเพราหมูสับไข่ดาว" style="width: 60px;"></td>
+            <td>กระเพราหมูสับไข่ดาว</td>
+            <td style="text-align: center;" >45</td>
+            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+        </tr>
+        <tr align="center">
+            <td>A-002</td>
+            <td><img src="Images/ข้าวไก่กระเทียม.jpg" alt="ข้าวไก่กระเทียม" style="width: 60px;"></td>
+            <td>ข้าวไก่กระเทียม</td>
+            <td style="text-align: center;" >40</td>
+            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+        </tr>
+        <tr align="center">
+            <td>A-003</td>
+            <td><img src="Images/ข้าวผัด.jpg" alt="ข้าวผัด" style="width: 60px;"></td>
+            <td>ข้าวผัด</td>
+            <td style="text-align: center;" >35</td>
+            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+        </tr>
+        <tr align="center">
+            <td>A-004</td>
+            <td><img src="Images/คะน้าหมูกรอบ.jpg" alt="คะน้าหมูกรอบ" style="width: 60px;"></td>
+            <td>คะน้าหมูกรอบ</td>
+            <td style="text-align: center;" >40</td>
+            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+        </tr>
+        <tr>    
+            <td colspan="4" style="text-align: right;" bgcolor="black"><b>ราคารวม : 160 บาท</b>
+            <td bgcolor="black" style="text-align: center;"><button onclick="document.location='home.html'" style="width: 50px;">Order Now</button></td>
+            </td>
+        </tr>
+    </table>
+    <h4 style="text-align: center;"><a href="home.html" style="color: red;">Back to home</a></h4>
+</body>
+</html>
