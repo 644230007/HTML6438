@@ -7,72 +7,73 @@
     <meta name="author" content="chutiwat">
     <title>Homework-Table-Chutiwat</title>
     <style>
-        td{
-            color: darkblue;
-            width: 200px;
-            text-align: center;
-        }
-        b{
-            color: white;
-            text-decoration: underline;
-        }
-        button:hover,button:active{
-            background-color: greenyellow;
-            color: white;
+        table {
+             border-collapse: collapse;
+             width: 70%;
         }
         thead{
             background-color: black;
-            color: yellow;
+            color: white;
         }
-    </style>
+        th,td {
+            padding: 5px;
+            border-bottom: 1px solid rgb(238, 238, 238);
+        }
+        h2 {
+            text-align: center;
+        }
+        ins{
+            color: white;
+        }
+      </style>    
 </head>
 <body>
     <h1>Welcome to Chutiwat Homepage</h1>
     <hr>
     <h4 align="right"><a href="home.html">Back to home</a></h4>
-    <h2 align="center">รายการอาหาร</h2>
+    <h2 align="center">รายการสินค้า</h2>
     <table border="0" cellpadding="10" cellspacing="0" align="center">
         <tr>
             <tbody>
                 <thead>
-                    <th>รหัสเมนู</th>
-                    <th>ภาพ</th>
-                    <th>ชื่อ</th>
+                    <th>รหัสสินค้า</th>
+                    <th>ภาพสินค้า</th>
+                    <th>ชื่อสินค้า</th>
                     <th>ราคา</th>
                     <th>ดำเนินการ</th>
                 </thead>
             </tbody>
         </tr>
         <tr align="center">
-            <td>A-001</td>
-            <td><img src="Images/กระเพราหมูสับไข่ดาว.jpg" alt="กระเพราหมูสับไข่ดาว" style="width: 60px;"></td>
-            <td>กระเพราหมูสับไข่ดาว</td>
-            <td style="text-align: center;" >45</td>
-            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+            <td>P001</td>
+            <td><img src="Images/sushi_1.jpg" alt="Sushi 1" style="width: 60px;"></td>
+            <td style="text-align: left;">Sushi 1</td>
+            <td style="text-align: center;" >400</td>
+            <td bgcolor="red"style="text-align: center;"><ins>Delete</ins></td>
         </tr>
         <tr align="center">
-            <td>A-002</td>
-            <td><img src="Images/ข้าวไก่กระเทียม.jpg" alt="ข้าวไก่กระเทียม" style="width: 60px;"></td>
-            <td>ข้าวไก่กระเทียม</td>
-            <td style="text-align: center;" >40</td>
-            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+            <td>P002</td>
+            <td><img src="Images/sushi_2.jpg" alt="Sushi 2" style="width: 60px;"></td>
+            <td style="text-align: left;">Sushi 2</td>
+            <td style="text-align: center;" >350</td>
+            <td bgcolor="red"style="text-align: center;"><ins>Delete</ins></td>
         </tr>
         <tr align="center">
-            <td>A-003</td>
-            <td><img src="Images/ข้าวผัด.jpg" alt="ข้าวผัด" style="width: 60px;"></td>
-            <td>ข้าวผัด</td>
-            <td style="text-align: center;" >35</td>
-            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+            <td>P003</td>
+            <td><img src="Images/sushi_3.jpg" alt="Sushi 3" style="width: 60px;"></td>
+            <td style="text-align: left;">Sushi 3</td>
+            <td style="text-align: center;" >350</td>
+            <td bgcolor="red"style="text-align: center;"><ins>Delete</ins></td>
         </tr>
         <tr align="center">
-            <td>A-004</td>
-            <td><img src="Images/คะน้าหมูกรอบ.jpg" alt="คะน้าหมูกรอบ" style="width: 60px;"></td>
-            <td>คะน้าหมูกรอบ</td>
-            <td style="text-align: center;" >40</td>
-            <td bgcolor="red"style="text-align: center;"><b>delete</b> </td>
+            <td>P004</td>
+            <td><img src="Images/sushi_4.webp" alt="Sushi 4" style="width: 60px;"></td>
+            <td style="text-align: left;">Sushi 4</td>
+            <td style="text-align: center;" >120</td>
+            <td bgcolor="red"style="text-align: center;"><ins>Delete</ins></td>
         </tr>
         <tr>    
-            <td colspan="4" style="text-align: right;" bgcolor="black"><b>ราคารวม : 160 บาท</b>
+            <td colspan="4" style="text-align: right;" bgcolor="black"><b style="color: white;">ราคารวม : 1,220 บาท</b>
             <td bgcolor="black" style="text-align: center;"><button onclick="document.location='home.html'" style="width: 50px;">Order Now</button></td>
             </td>
         </tr>
